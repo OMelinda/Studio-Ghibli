@@ -16,15 +16,25 @@ body{
     background-size: cover;
     background-attachment:fixed   
 }
+.background2{
+  background-image: url(../img/7pd6lmjuo2t21.png);
+  background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    background-size: cover;
+    background-attachment:fixed   
+}
 .logo{
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 35%;
+  margin-bottom: 20px;
   
 }
 #hatter{
-    background-color: white;
+    background-color: white ;
 
 }
 table {
@@ -67,13 +77,30 @@ td {
     background-color: white;
     border-radius: 5px;
   }
- 
+  
 .navbar{
-    font-family: 'Dosis', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
     overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 100;
-  
+  z-index: 100;  
+}
+
+footer {
+display:flex;
+background-color: rgba(255, 255, 255, 0.7) ;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+height: 30px;
+width: 100%;
+margin: 0 auto;
+justify-content:center;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+color: rgba(32, 25, 25, 0.925);
 }
