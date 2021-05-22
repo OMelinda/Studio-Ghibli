@@ -42,7 +42,7 @@ td {
     padding: 10px;
 }
 .poster{
-  height: 400px;
+  height: 360px;
   width: 250px;
   border: 30px;
   margin: 1rem;
@@ -51,7 +51,7 @@ td {
   border-style: solid;
   border-color: white;
   margin: auto;
-  border-bottom-width:50px;
+  border-bottom-width:5px;
   border-radius: 12px;
   overflow: hidden;
   transition: all .2s linear;
@@ -62,6 +62,10 @@ td {
     box-shadow: 2px 8px 45px rgba(0, 0, 0, .30);
     transform: translate3D(0, -2px, 0);
     overflow: hidden;
+  }
+  .imgtext{
+    background-color: white;
+    border-radius: 5px;
   }
  
 .navbar{
