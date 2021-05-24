@@ -33,8 +33,30 @@ body{
   margin-bottom: 20px;
   
 }
+.szoveg{
+  text-align: center;
+}
+
+.creators{
+  width: 450px;
+  height: 250px;
+  border-radius: 5px; 
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+  
+}
+.creators:hover{
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .30);
+    transform: translate3D(0, -2px, 0);
+    overflow: hidden;
+}
 #hatter{
-    background-color: white ;
+  background-color: rgba(255, 255, 255, 0.8) ;
+  border-radius: 5px;
+  border-color: rgb(187, 191, 189);
+  border-width: 2px;
+  border-style: solid;
 
 }
 table {
@@ -103,4 +125,10 @@ text-align: center;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-weight: bold;
 color: rgba(32, 25, 25, 0.925);
+}
+.display-5{
+  font-size: 35px !important;
+}
+a:link{
+  text-decoration: none;
 }
